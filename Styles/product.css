@@ -1,0 +1,108 @@
+section.deals .prodDetails{
+	box-sizing: border-box;
+	height:80%;
+	width:100%;
+	padding-top: 20px;
+	overflow: hidden;
+}
+.prodDetails:before, .prodDetails:after{
+	content:"";
+	display: table;
+}
+.prodDetails:after{
+	clear:both;
+}
+section.deals {
+	overflow: hidden;
+}
+div.prodDetails img.prodImg{
+	display:inline-block;
+	float:left;		
+	position:relative;	
+
+   	width:30%;
+}
+div.prodDetails div.prodDesc{
+	box-sizing: border-box;
+	float:left;
+	width: 70%;
+	display: inline-block;
+	padding-left: 20px;
+}
+div.prodDesc span.ratingImg{
+	display: inline-block;
+	text-indent: -10000px;
+	background: url("../Images/starRating.png") center center no-repeat;
+	background-position: 0 0;
+	height:20px;
+	width:113px;
+}
+span.ratingImg + span.ratingTxt{
+	color:#f33;
+	position:relative;
+	font: bold 20px "sans-serif", arial ;
+	top: -2px;
+}
+div.prodDesc span.link{
+	display: block;
+	overflow: hidden;	
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: "sans-serif", arial;
+    font-weight: bold;
+    text-indent: 22px;
+    background: url("../Images/linkImg.png") left center no-repeat;
+    background-size: 20px 20px;
+}
+div.prodDesc span.link a{
+	font-weight: normal;
+	color: #1EB9E7;
+
+}
+div.prodDesc span.offer{
+	margin:10px;
+	width:50%;
+	border-radius: 50%;
+	border: #E00 2px solid;
+	background: #F55;
+	overflow: hidden;
+	float:left;
+	padding: 5px;
+	text-align: center;
+	font: 20px bold "sans-serif", arial ;
+	color: #fff;
+	width: 45px;
+	height: 45px;
+}
+div.prodDesc span.likes{
+	margin: 20px 30px auto auto;	
+	background: #CCF url("../Images/likeImg.png") left center no-repeat;
+	border-radius: 10px;
+	float:right;
+	color: #00F;
+	border: solid #000 2px;
+	height:30px;
+	text-indent: 35px;
+	font: 25px bold "sans-serif", arial ;
+	text-align: center;
+	padding-right: 10px;
+	top:-5px;
+	display: inline-block;
+}
+div.prodDesc span.actualPrice{
+	display: block;
+	font-size: 20px;
+}
+div.prodDesc span.actualPrice  span.stikeoutPrice{
+	color: #999;
+	text-decoration: line-through;
+}
+div.prodDesc span.finalPrice{
+	display: block;
+	font-size: 20px;
+}
+div.prodDesc span.finalPrice  span.highlightPrice{
+	color: #0C0;
+	font-weight: bold;
+	letter-spacing: 1px;
+}

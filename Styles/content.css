@@ -1,0 +1,43 @@
+*{
+	padding:0;
+	margin:0;
+}
+main{
+	box-sizing: border-box;
+	width:100%;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+section.deals{
+	box-sizing: border-box;
+	background-color: #F8F8F8;
+	margin:10px 20px 10px 0;
+	padding:20px;
+	float:left;
+	width:400px;
+	height:300px;
+	border-radius: 20px;
+	border: solid #aaa 2px;
+}
+section.deals h1.productHeading{
+	color:#8ACCC7;
+	font-family: "sans-serif", arial;
+	background: url("../Images/arrow.png") left center no-repeat;
+	height:22px;
+	overflow: hidden;
+	text-indent: 40px;
+	position:relative;
+	padding:10px;
+	display: block;
+}
+
+section.deals h3.provider{
+	color:#A2A2A2;
+	background: url("../Images/provider.png") left center no-repeat;
+	height: 22px;
+	overflow: hidden;
+	text-indent: 40px;
+	font-family: "sans-serif", arial;
+	padding:10px;
+}
+
